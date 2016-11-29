@@ -55,7 +55,7 @@ steps_by_day <- aggregate(steps ~ date, data, sum)
 hist(steps_by_day$steps, main = paste("Total Steps Each Day"), col="blue", xlab="Number of Steps")
 ```
 
-![plot of chunk Chunk-ChunkPlot2](./RepData_PeerAssessment1/instructions_fig/Chunk-ChunkPlot2.png) 
+![plot of chunk Chunk-ChunkPlot2](./instructions_fig/Chunk-ChunkPlot2.png) 
 
 ```r
 rmean <- mean(steps_by_day$steps)
